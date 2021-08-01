@@ -1,0 +1,34 @@
+<html>
+    <title>COVID19 XRAY</title>
+    <style>
+        div {
+            height: 800px;
+            background: linear-gradient(to bottom, #667eea 0%, #764ba2 100%)
+        }
+    </style>
+    <!--<body style="background-color:green">-->
+    <body>
+        <div>
+            <center>
+                    <br/>
+                                      <br/>
+                    <h1>Deep Learning for Detecting COVID-19 using Neural Network</h1>
+
+                    <br/>
+
+                         <h4>Please Select XRAY Image </h4>
+                    <form action="upload-image" method="post" enctype="multipart/form-data">
+                        <input type='file' name='image' />
+                        <br/>
+                        <br/>
+                        <br/>
+                         <br/>
+                         <br/>
+                        <input type='submit' value='Get the Result' />
+
+                         <h3>Result of the scan: {{ name }}</h3>
+                    </form>
+            </center>
+        </div>
+    </body>
+</html>
